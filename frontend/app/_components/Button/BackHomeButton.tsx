@@ -2,9 +2,9 @@ import { Button } from '@radix-ui/themes'
 import { ArrowLeftIcon } from 'lucide-react'
 
 // Type - props
-type TProps = {
+type TProps = Readonly<{
 	handleClick: () => void
-}
+}>
 
 // Component - button back to home page
 const BackHomeButton = ({ handleClick }: TProps) => {

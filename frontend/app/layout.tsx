@@ -28,7 +28,7 @@ export default function RootLayout({ children }: TProps) {
 		<html lang='en'>
 			<body className={beVietnamPro.className}>
 				<ApolloProvider>
-					<Theme accentColor='jade' grayColor='auto' appearance='dark' radius='medium' scaling='100%' panelBackground='translucent'>
+					<Theme appearance='dark' radius='medium' scaling='100%' panelBackground='translucent'>
 						{children}
 					</Theme>
 				</ApolloProvider>

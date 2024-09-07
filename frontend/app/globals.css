@@ -86,72 +86,77 @@
 
 .dark,
 .dark-theme {
-	--gray-1: #17181a;
-	--gray-2: #1e1e21;
-	--gray-3: #26272a;
-	--gray-4: #2c2d31;
-	--gray-5: #323338;
-	--gray-6: #3a3b41;
-	--gray-7: #47484f;
-	--gray-8: #5f606a;
-	--gray-9: #6c6e79;
-	--gray-10: #797b86;
-	--gray-11: #b2b3bd;
-	--gray-12: #eeeef0;
+	--gray-1: #14181e;
+	--gray-2: #1a1f25;
+	--gray-3: #212730;
+	--gray-4: #252d39;
+	--gray-5: #2a3341;
+	--gray-6: #2f3b4c;
+	--gray-7: #3a495e;
+	--gray-8: #4d627f;
+	--gray-9: #5b6f8c;
+	--gray-10: #697d98;
+	--gray-11: #a6b5ca;
+	--gray-12: #eaeef5;
 
-	--gray-a1: #f2340009;
-	--gray-a2: #ff870010;
-	--gray-a3: #f9bb2a19;
-	--gray-a4: #fecc641f;
-	--gray-a5: #fad38826;
-	--gray-a6: #fedfaa2e;
-	--gray-a7: #fde7c83c;
-	--gray-a8: #fff2ea55;
-	--gray-a9: #fff8f563;
-	--gray-a10: #fff9fa71;
-	--gray-a11: #fbf9ffb0;
-	--gray-a12: #fefdfeee;
+	--gray-a1: #e4420006;
+	--gray-a2: #f9c1000c;
+	--gray-a3: #f5e37714;
+	--gray-a4: #eff8c319;
+	--gray-a5: #eefee81f;
+	--gray-a6: #d6f7fe29;
+	--gray-a7: #bee2fc3f;
+	--gray-a8: #aad3ff66;
+	--gray-a9: #b4d6fd76;
+	--gray-a10: #bdddff84;
+	--gray-a11: #d7e9ffc0;
+	--gray-a12: #f4f8fef4;
 
 	--gray-contrast: #ffffff;
 	--gray-surface: rgba(0, 0, 0, 0.05);
-	--gray-indicator: #6c6e79;
-	--gray-track: #6c6e79;
+	--gray-indicator: #5b6f8c;
+	--gray-track: #5b6f8c;
 }
 
 @supports (color: color(display-p3 1 1 1)) {
 	@media (color-gamut: p3) {
 		.dark,
 		.dark-theme {
-			--gray-1: oklch(20.8% 0.0042 277.7);
-			--gray-2: oklch(23.8% 0.004 277.7);
-			--gray-3: oklch(27.2% 0.0055 277.7);
-			--gray-4: oklch(29.6% 0.0075 277.7);
-			--gray-5: oklch(32.1% 0.0089 277.7);
-			--gray-6: oklch(35.4% 0.01 277.7);
-			--gray-7: oklch(40.3% 0.0121 277.7);
-			--gray-8: oklch(49.3% 0.0157 277.7);
-			--gray-9: oklch(54.1% 0.0167 277.7);
-			--gray-10: oklch(58.6% 0.0165 277.7);
-			--gray-11: oklch(77% 0.0138 277.7);
-			--gray-12: oklch(94.9% 0.0026 277.7);
+			--gray-1: oklch(20.8% 0.0134 256.8);
+			--gray-2: oklch(23.7% 0.0138 256.8);
+			--gray-3: oklch(27.1% 0.0193 256.8);
+			--gray-4: oklch(29.6% 0.0248 256.8);
+			--gray-5: oklch(32% 0.0279 256.8);
+			--gray-6: oklch(35.1% 0.0335 256.8);
+			--gray-7: oklch(40% 0.0407 256.8);
+			--gray-8: oklch(49.1% 0.0527 256.8);
+			--gray-9: oklch(53.7% 0.0513 256.8);
+			--gray-10: oklch(58.3% 0.0479 256.8);
+			--gray-11: oklch(76.8% 0.0351 256.8);
+			--gray-12: oklch(94.9% 0.0095 256.8);
 
-			--gray-a1: color(display-p3 0.9725 0.2431 0 / 0.026);
-			--gray-a2: color(display-p3 0.9961 0.5922 0 / 0.055);
-			--gray-a3: color(display-p3 0.9922 0.7961 0.2078 / 0.089);
-			--gray-a4: color(display-p3 0.9961 0.8471 0.4392 / 0.114);
-			--gray-a5: color(display-p3 1 0.8824 0.5843 / 0.139);
-			--gray-a6: color(display-p3 0.9961 0.9098 0.6824 / 0.173);
-			--gray-a7: color(display-p3 1 0.9373 0.8 / 0.227);
-			--gray-a8: color(display-p3 1 0.9647 0.9255 / 0.328);
-			--gray-a9: color(display-p3 1 0.9843 0.9725 / 0.383);
-			--gray-a10: color(display-p3 1 0.9882 0.9882 / 0.437);
-			--gray-a11: color(display-p3 0.9882 0.9843 1 / 0.687);
-			--gray-a12: color(display-p3 1 0.9961 1 / 0.93);
+			--gray-a1: color(display-p3 0.9922 0.3216 0 / 0.017);
+			--gray-a2: color(display-p3 0.9804 0.8235 0 / 0.043);
+			--gray-a3: color(display-p3 0.9961 0.9647 0.4902 / 0.072);
+			--gray-a4: color(display-p3 0.9765 1 0.7804 / 0.095);
+			--gray-a5: color(display-p3 0.9451 1 0.9098 / 0.121);
+			--gray-a6: color(display-p3 0.8588 0.9804 1 / 0.159);
+			--gray-a7: color(display-p3 0.7922 0.9098 1 / 0.239);
+			--gray-a8: color(display-p3 0.7059 0.8314 1 / 0.393);
+			--gray-a9: color(display-p3 0.749 0.851 1 / 0.449);
+			--gray-a10: color(display-p3 0.7765 0.8706 1 / 0.51);
+			--gray-a11: color(display-p3 0.8706 0.9255 1 / 0.743);
+			--gray-a12: color(display-p3 0.9686 0.9804 1 / 0.949);
 
 			--gray-contrast: #ffffff;
 			--gray-surface: color(display-p3 0 0 0 / 5%);
-			--gray-indicator: oklch(54.1% 0.0167 277.7);
-			--gray-track: oklch(54.1% 0.0167 277.7);
+			--gray-indicator: oklch(53.7% 0.0513 256.8);
+			--gray-track: oklch(53.7% 0.0513 256.8);
 		}
 	}
+}
+
+.radix-themes {
+	--line-height: 156%;
+	--letter-spacing: 0.01em;
 }
