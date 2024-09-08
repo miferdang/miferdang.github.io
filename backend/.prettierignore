@@ -1,0 +1,6 @@
+build
+dist
+node_modules
+public
+.src/payload-types.ts
+.src/generated-schema.graphql
